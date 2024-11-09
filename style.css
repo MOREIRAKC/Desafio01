@@ -1,0 +1,126 @@
+*{
+   margin: 0px;
+   font-family: "inter";
+   
+}
+#titulomenusuperior{
+    width: 1024px;
+    height: 72px;
+    margin-top: 206px;
+    margin-left: 62px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+#textomenusuperior{
+    width: 1024px;
+    height: 28px;
+    margin-top:15px;
+    margin-left: 62px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 150px;
+}
+#menusuperior{
+    background-color:#303030 ;
+    color:#FFFFFF ;
+    padding-top: 10px;
+    
+}
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 100px;
+    padding-bottom: 75px; 
+    padding-left: 175px;
+    
+}
+
+#menuhistoria{
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 75px 50px 75px 350px;
+}
+#titulomenuhistoria{
+    gap: 0px;
+    opacity: 0px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 175px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+#textomenuhistoria{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+}
+#menuformulario{
+    background-color: #303030;
+}
+#tituloformulario{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+input{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 900px;
+    margin-top: 25px;
+    width: 310px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    color: #0000004D;
+    font: "Raleway";
+    font-size: 15px;
+    padding-left: 15px;
+    
+}
+button{
+    font: "raleway";
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #C07212;
+    color: #FFFFFF;
+    margin-left: 960px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+    
